@@ -4,9 +4,11 @@ import HomePage from './HomePage'
 
 function PrivatePage() {
 return(
+
+    
     <HomePage>
         <div>
-            <Link to = "/Chat-Room" >
+            <Link to = "/privatechat" >
              <img src = "ButtonPrivateGroupChat.png" alt = "" />
             </Link>
         </div> 
