@@ -15,9 +15,8 @@ function App() {
     setLines(lines => [...lines, text]);
     setText("");
   };
-
-
   return (
+    
     <div className="App">
       <div className="App-header">
          Box Chat
@@ -51,8 +50,8 @@ function App() {
 
         <div className = "App-textbox-send" 
           onClick={onSendHandler}> 
-        <div className = "App-textbox-send-pic">
-          </div>
+        <div className = "App-textbox-send-pic"/>
+          
 
         </div>
   
